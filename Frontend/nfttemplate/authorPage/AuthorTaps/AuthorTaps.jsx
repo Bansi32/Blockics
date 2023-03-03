@@ -5,7 +5,7 @@ import { TiArrowSortedDown, TiArrowSortedUp, TiTick } from "react-icons/ti";
 //INTERNAL IMPORT
 import Style from "./AuthorTaps.module.css";
 
-const AuthorTaps = ({
+export const AuthorTaps = ({
   setCollectiables,
   setCreated,
   setLike,
@@ -139,4 +139,3 @@ const AuthorTaps = ({
   );
 };
 
-export default AuthorTaps;

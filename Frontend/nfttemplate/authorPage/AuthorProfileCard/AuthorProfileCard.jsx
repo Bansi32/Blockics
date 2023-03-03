@@ -19,7 +19,7 @@ import Style from "./AuthorProfileCard.module.css";
 import images from "../../img";
 import { Button } from "../../components/componentsindex.js";
 
-const AuthorProfileCard = () => {
+export const AuthorProfileCard = () => {
   const [share, setShare] = useState(false);
   const [report, setReport] = useState(false);
 
@@ -163,4 +163,4 @@ const AuthorProfileCard = () => {
   );
 };
 
-export default AuthorProfileCard;
+

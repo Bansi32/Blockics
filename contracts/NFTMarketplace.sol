@@ -34,7 +34,7 @@ contract NFTMarketplace is ERC721URIStorage
         address seller,
         address owner,
         uint256 price,
-        bool sold,
+        bool sold
     );
 
     modifier onlyOwner{

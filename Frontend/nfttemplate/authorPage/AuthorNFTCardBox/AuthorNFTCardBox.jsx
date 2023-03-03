@@ -6,7 +6,7 @@ import images from "../../img";
 import { NFTCardTwo } from "../../collectionPage/collectionIndex";
 import FollowerTabCard from "../../components/FollowerTab/FollowerTabCard/FollowerTabCard";
 
-const AuthorNFTCardBox = ({
+export  const AuthorNFTCardBox = ({
   collectiables,
   created,
   like,
@@ -111,4 +111,3 @@ const AuthorNFTCardBox = ({
   );
 };
 
-export default AuthorNFTCardBox;
